@@ -1,0 +1,15 @@
+#form_register, div#authorized{width:50%;max-width:500px;margin:0 auto;padding:40px 20px;border-radius: 4px;box-shadow: 0px 10px 13px rgba(0,0,0,.3);background: linear-gradient(to right, #cfd4d7 0px, #cfd4d7 5px, #cfd4d7 5px, #cfd4d7 10px, #cfd4d7 10px) repeat-x 3px 0px / 10px 1px, linear-gradient(to bottom, #cfd4d7 0px, #cfd4d7 5px, #cfd4d7 5px, #cfd4d7 10px, #cfd4d7 10px) repeat-y 100% 3px / 1px 10px, linear-gradient(to right, #cfd4d7 0px, #cfd4d7 5px, #cfd4d7 5px, #cfd4d7 10px, #cfd4d7 10px) repeat-x 3px 100% / 10px 1px, linear-gradient(to bottom, #cfd4d7 0px, #cfd4d7 5px, #cfd4d7 5px, #cfd4d7 10px, #cfd4d7 10px) repeat-y 0px 3px / 1px 10px;;}
+#form_register h2, #form_register p, div#authorized h2{text-align:center;}
+#form_register p.vk{margin-bottom:25px;}
+#form_register p.vk a {display:block;background-color: #5181b8;color:#fff;border-radius: 4px;padding: 7px 16px 8px;font-size:14px;width:200px;margin:0 auto;text-decoration:none;}
+#form_register p.vk a:hover{background-color: #5b88bd}
+#form_register p.disabled_text{color:red;}
+#form_register input[type="submit"]{margin:0 calc(50% - 50px);width:100px;padding: 15px 0;text-align: center;line-height: 1em;box-sizing: border-box;border:none;border-radius: 4px;color: #fff;font-size: 14px;box-shadow: 0px 10px 13px rgba(192,192,192,.8);background: linear-gradient(to right, #a2a2a2 0px, #887c7b 100%) no-repeat;}
+#form_register input[type="submit"]:disabled{background: #ccc}
+#form_register input[type="submit"]:not(:disabled){cursor:pointer;}
+body.admin{width:50%;margin:0 auto;}
+.adminform{margin-bottom:40px;}
+.adminform *{text-align:center;}
+.admin-res{border-collapse:collapse;}
+.admin-res th{border-bottom:1px solid black; padding:5px 10px;}
+.admin-res td{padding:5px 10px;}
